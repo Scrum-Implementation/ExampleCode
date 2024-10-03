@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+main {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.heading {
+    text-align: center;
+    color: #ffffff;
+}
+
+form {
+    margin-bottom: 30px;
+}
+form div {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input[type="text"], input[type="number"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+table th {
+    background-color: #333;
+    color: white;
+}
+table tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+.form-container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+.addbutton input {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.addbutton input:hover {
+    background-color: #45a049;
+}
+
+a[href] {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+
+a[href].btn-delete {
+    background-color: #e74c3c;
+}
+
+a[href].btn-delete:hover {
+    background-color: #c0392b;
+}
+
+a[href].btn-update {
+    background-color: #3498db;
+}
+
+a[href].btn-update:hover {
+    background-color: #2980b9;
+}
+
+a[href].btn-cancel {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+}
+
+a[href].btn-cancel:hover {
+    background-color: #45a049;
+}
